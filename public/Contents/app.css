@@ -80,6 +80,9 @@ color: white;
 margin-bottom: 60px;
 }
 
+.box1 ul, .box2 ul, .box3 ul{
+    list-style-type: none;
+}
 
 form{
 text-align: center;
