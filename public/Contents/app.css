@@ -264,25 +264,25 @@ align-items: baseline;
 }
 
 .box1 li, .box2 li, .box3 li{
-    color: grey;
+color: grey;
 }
 
 .prj-title, #contactMeHeading, .about-subtitle, .about-text h4, .about-info{
-    font-family: 'Kenia'; 
+font-family: 'Kenia'; 
 }
 
 .box1 h1, .box2 h1, .box3 h1{
-    font-family: 'Black Ops One';
+font-family: 'Black Ops One';
 }
 
 .box1 article, .box2 article, .box3 article, .ContactSys label{
-    font-family: 'Cinzel';
+font-family: 'Cinzel';
 }
 
 .col .typed-text{
-    font-family: 'Orbitron';
+font-family: 'Orbitron';
 }
 
 .navbar-brand{
-    font-family: 'Blac Ops One';
+font-family: 'Blac Ops One';
 }
