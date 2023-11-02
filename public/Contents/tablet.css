@@ -8,63 +8,56 @@
   }
   
   .img-fluid {
-    margin-top: 10%;
+    margin-top: 5%;
     margin-left: 10%;
-    margin-bottom: 10%;
-    width: 60%; /* Adjust as needed */
+    margin-bottom: 5%;
+    width: 80%;
     height: auto;
     max-width: 100%;
-    border: 2%;
+    border: 5px solid black;
     border-radius: 50%;
     overflow: hidden;
   }
   
   .container {
     background-color: grey;
-    padding: 2%;
+    padding: 5%;
   }
   
   .col h1 {
     font-family: "filicudi-color-pride", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
   }
   
-  .col h3, .col h1, .col .typed-text {
-    margin-left: 2%;
-    margin-right: 10%;
+  .col h3,
+  .col h1,
+  .col .typed-text {
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: left;
     color: white;
   }
   
   .col h3 {
-    margin-top: 10%;
+    margin-top: 5%;
   }
   
   .flex-container {
     display: flex;
+    flex-wrap: wrap;
   }
   
-  .box1, .box2 {
+  .box1, .box2, .box3 {
     background-color: #333;
-    border-radius: 2%;
-    box-shadow: 1%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
     flex: 1;
-    padding: 2%;
-    margin: 2%;
+    padding: 5%;
+    margin: 2.5%;
     list-style-type: none;
-  }
-  
-  .box3 {
-    background-color: #333;
-    border-radius: 2%;
-    box-shadow: 1%;
-    text-align: center;
-    padding: 2%;
-    margin: 2%;
-    list-style-type: none;
-    margin-bottom: 10px;
   }
   
   .box1 h1, .box2 h1, .box3 h1 {
@@ -96,13 +89,13 @@
   .ContactSys {
     max-width: 80%;
     margin: 0 auto;
-    padding: 2%;
-    border-radius: 2%;
+    padding: 5%;
+    border-radius: 5px;
     text-align: center;
     border: 2px solid black;
     background-color: #333;
-    box-shadow: 1%;
-    margin-bottom: 5%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10%;
   }
   
   .SubmitButton {
@@ -111,30 +104,34 @@
     display: inline-block;
     box-sizing: border-box;
     border-color: black;
-    align-items: center;
+    text-align: center;
+    padding: 3% 6%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    border-radius: 5px;
   }
   
   .ContactSys .Inside {
     width: 100%;
-    margin: 1%;
-    padding: 2% 3%;
-    border-width: 1%;
+    margin: 2%;
+    padding: 3% 6%;
+    border-width: 5%;
   }
   
   .ContactSys h1 {
     text-align: center;
     color: white;
-    margin-bottom: 3%;
-    padding: 1%;
+    margin-bottom: 5%;
+    padding: 2%;
   }
   
   .ContactSys .Outside {
     width: 100%;
-    height: 150px;
-    margin: 1%;
-    padding: 10% 3%;
+    height: 15%;
+    margin: 2%;
+    padding: 10% 6%;
     display: inline-block;
-    border-width: 1%;
+    border-width: 5%;
   }
   
   .ContactSys .Outside::placeholder {
@@ -153,11 +150,11 @@
   }
   
   .ContactSys .SubmitButton {
-    height: 3%;
-    width: 8%;
+    height: 5%;
+    width: 10%;
     cursor: pointer;
-    margin-top: 2%;
-    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
   }
   
   .about-header {
@@ -168,7 +165,7 @@
   }
   
   .about-title {
-    font-size: 2.5%;
+    font-size: 6%;
     text-transform: uppercase;
     color: #333;
     -webkit-text-stroke: 1px #dee2e6;
@@ -181,25 +178,26 @@
   
   .about-content {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
   }
   
   .about-image {
     flex: 1;
-    padding: 1%;
+    padding: 5%;
   }
   
   .about-img {
     max-width: 100%;
-    border-radius: 2%;
-    border: 1%;
+    border-radius: 5px;
+    border: 5px solid black;
     overflow: hidden;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   
   .about-details {
     flex: 2;
-    padding: 2%;
+    padding: 5%;
     text-align: left;
   }
   
@@ -209,13 +207,13 @@
   
   .about-info {
     flex-wrap: wrap;
-    margin-top: 2%;
+    margin-top: 5%;
     display: inline-block;
   }
   
   .about-info-item {
     flex: 1;
-    padding: 1%;
+    padding: 5%;
   }
   
   .about-info-item h6 {
@@ -236,9 +234,9 @@
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 1%;
+    padding: 5%;
     background-color: black;
-    margin-bottom: 5%;
+    margin-bottom: 10%;
   }
   
   video {
@@ -272,8 +270,7 @@
   }
   
   .navbar-brand {
-    font-family: 'Blac Ops One';
+    font-family: 'Black Ops One';
   }
-  
 }
   
