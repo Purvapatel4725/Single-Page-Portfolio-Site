@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- full-size monitor style sheet-->
+    <link href="/Contents/app.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+    <!-- tablet style sheet-->
+    <link href="/Contents/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
+    <!-- phone style sheet-->
+    <link href="/Contents/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+    <!--Font by google Kenia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+    <!--Font by google Black Ops One-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <!--Font by google Cinzel-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <!--Font by google Orbitron-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <!--font by adobe-->
+    <link rel="stylesheet" href="https://use.typekit.net/zhq4lgb.css">
+  <body>
+<!--Main nav bar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#home"><i class="fa-solid fa-house"></i> Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects"><i class="fa-solid fa-list-check"></i> Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact"><i class="fa-solid fa-address-book"></i> Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><i class="fa-solid fa-address-card"></i> About</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img class="img-fluid" src="Assets/images/ProfPic.png" alt="Profile Picture">
+                </div>
+                <div class="col">
+                    <h3>I'm</h3>
+                    <h1>Purva Patel</h1>
+                    <div class="typed-text">Ontario Tech University</div>
+                </div>
+            </div>
+        </div>
+</section>
+    
+<section id="projects">
+    <div class="container">
+    <h1 class="prj-title">Projects</h1>
+    <div class="flex-container">
+        <div class="box1">
+        <h1>Python</h1>
+        <article> 
+        <li>In my first-year coding project, I developed a </li>
+        <li>Python-based encryption and decryption tool that </li>
+        <li>offers a diverse range of ciphers.</li>
+        <li>This versatile </li>
+        <li>application allows users to secure their text messages</li>
+        <li> and confidential information using classic</li> 
+        <li>and modern</li> 
+        <li>encryption methods, providing a valuable learning experience</li> 
+        <li>and practical utility</li>
+        <li>for data privacy and security.</li>
+        <br>
+        </article>
+        </div>
+        <div class = "box2">
+        <h1>Networking</h1>
+        <article>
+        <li>In my second-year networking project, I created an internet-connected</li> 
+        <li>network, using various routing protocols to interconnect with peers' pods.</li> 
+        <li>Security measures such as firewalls, encryption, and access controls were </li>
+        <li>implemented to ensure data safety. This project exemplified my networking skills</li> 
+        <li>and</li>
+        <li>commitment to a secure communication environment.</li>
+        <br>
+        </article>
+        </div>
+      </div>
+      <div class="grid-container">
+        <div class="box3">
+        <h1>Web Development</h1>
+        <article>
+        <li>In my second-year web development project, I created a comprehensive portfolio</li> 
+        <li>website using HTML, CSS, JavaScript, and other web technologies. This project served</li> 
+        <li>as an impressive showcase of my design and coding abilities, enabling me to present my</li> 
+        <li>work, skills, and achievements in an engaging and interactive manner, fostering personal and</li> 
+        <li>professional growth in the web development field.</li>
+        <br>
+        </article>
+        </div>
+        <div class="box3">
+        <h1>Project Management</h1>
+        <article>
+        <li>In my project management class, I effectively led a dedicated team in orchestrating a</li> 
+        <li>vibrant Carnival. We meticulously managed the budget, identified key stakeholders, handled </li>
+        <li>logistics, and executed marketing strategies. Our collaborative efforts culminated in a comprehensive</li> 
+        <li>final report, underscoring our exemplary teamwork and refined project management skills<li>
+        <br>
+        </article>
+      </div>
+    </div>
+</section>
+    
+<section id="contact">
+    <div class="container">
+            <form method="post" enctype="text/plain">
+            <div class="ContactSys">
+                <h1 id="contactMeHeading">Contact Me</h1>
+                <label>Full Name:
+                    <input class="Inside" type="text" placeholder="Full Name" name="Full Name" required>
+                </label>
+                <label>Mobile Number:
+                    <input class="Inside" type="tel" placeholder="xxxxxxxxxx" maxlength="10" name="Phone Number" pattern="[0-9]{10}"  required>
+                </label>
+                <label>Email:
+                    <input class="Inside" type="email" placeholder="xyz@abc.com" name="email address" required>
+                </label>
+                <label>Message:
+                    <textarea class="Outside" type="text" placeholder="Enter your message here..." name="Custom message" required></textarea>
+                </label>
+                <label>
+                    <button class="SubmitButton" type="submit">Submit</button>
+                </label>
+            </div>
+        </form>
+    </div>
+</section>
+
+<section id="about">
+<div class="container">
+        <div class="about-header">
+            <h1 class="about-subtitle">About Me</h1>
+        </div>
+        <div class="about-content">
+            <div class="about-image">
+                <img class="about-img" src="Assets/images/Aboutme.jpg" alt="Purva Patel">
+            </div>
+            <div class="about-details">
+                <p class="about-text">
+                    <h4>I am Purva Patel, a motivated Networking and IT Security student at Ontario Tech Univeristy with a keen interest in the intersection of business and technology. I possess strong Python programming and networking skills, excellent problem-solving abilities and I am a skilled communicator and collaborator. I am eager to make a positive impact in the dynamic fields of Cybersecurity, and business.</h4>
+                </p>
+                <div class="about-info">
+                    <div class="about-info-item"><h4>Name: <span>Purva Patel</span></h4></div>
+                    <div class="about-info-item"><h4>Education: <span>Ontario Tech University</span></h4></div>
+                    <div class="about-info-item"><h4>Phone: <span>+1 9055983307</span></h4></div>
+                    <div class="about-info-item"><h4>Email: <span>purvapatel4725@gmail.com</span></h4></div>
+                    <div class="about-info-item"><h4>Address: <span>191 Nonquon Road, Oshawa, ON</span></h4></div>
+                </div>
+            </div>
+        </div>
+        <div class="VidContent">
+            <video controls poster="Assets/images/Poster.png" style="max-width: 100%;">
+                <source src="Assets/images/AiVideo.mp4" type="video/mp4">
+                <source src="Assets/images/AiVideo.ogg" type="video/ogg">
+                Your browser does not support the video tag.
+            </video> 
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+<!--Bottom Nav bar-->
+<nav class="navbar fixed-bottom bg-dark">
+  <div class="container-fluid">
+    <h5 class="navbar-brand">&copy; 2023 by Purva Patel    |   <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/purva-patel-78a10121b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> <i class="fab fa-github"></i> <a href="https://github.com/Purvapatel4725">GitHub</a></h5>
+  </div>
+</nav>
+
+
+
+
+
+<!--Scripts-->
+  <script scr = "/Scripts/app.js"></script>
+  <script scr = "/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script scr = "/jquery/dist/jquery.min.js"></script>
+<script>
+  // Function to type text and pause in sequence
+  function typeTextAndPause() {
+    const textElement = document.querySelector('.typed-text');
+    const textToType = "Ontario Tech University";
+    let index = 0;
+
+    // Function to update the text and handle the pause
+    function updateText() {
+      if (index <= textToType.length) {
+        textElement.textContent = textToType.slice(0, index);
+        index++;
+      } else {
+        setTimeout(() => {
+          index = 0;
+          textElement.textContent = "";
+          updateText();
+        }, 5000); // Pause for 5 seconds (5000 milliseconds)
+        return;
+      }
+
+      setTimeout(updateText, 100); // Adjust the interval duration (in milliseconds) for typing speed
+    }
+
+    updateText();
+  }
+
+  // Start typing when the page loads
+  window.addEventListener('load', typeTextAndPause);
+</script>
+
+</body>
+</html>
