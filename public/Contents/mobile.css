@@ -99,16 +99,12 @@
   }
   
   .SubmitButton {
-    background-color: rgb(27, 15, 37);
+    background-color: rgb(27,15,37);
     color: white;
     display: inline-block;
     box-sizing: border-box;
     border-color: black;
-    text-align: center;
-    padding: 3% 6%; /* Adjust padding for better mobile display */
-    margin-top: 5%; /* Adjust margin for spacing */
-    margin-bottom: 10%;
-    border-radius: 5px;
+    align-items: center;
   }
   
   .ContactSys .Inside {
@@ -150,11 +146,11 @@
   }
   
   .ContactSys .SubmitButton {
-    height: 5%;
-    width: 15%;
+    height: 30px;
+    width: 70px;
     cursor: pointer;
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 20px;
+    margin-bottom: 100px;
   }
   
   .about-header {
@@ -272,5 +268,7 @@
   .navbar-brand {
     font-family: 'Black Ops One';
   }
-  
+  .navbar h5 {
+    font-size: 12px; 
+  }
 }

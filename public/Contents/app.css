@@ -56,7 +56,7 @@ margin: 5px; /* Add a little margin for separation */
 list-style-type: none;
 }
 .box3 {
-background-color: #333; /* Set your preferred box background color */
+background-color: #333; /* Set preferred box background color */
 border-radius: 5px;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 text-align: center;
@@ -93,13 +93,13 @@ color: white;
 }
     
 .ContactSys {
-max-width: 400px; /* Adjust the width as needed */
+max-width: 400px; 
 margin: 0 auto;
 padding: 25px;
 border-radius: 5px;
 text-align: center;
 border: 2px solid black; /* Add a black border to the ContactSys container */
-background-color: #333; /* Set your preferred form background color */
+background-color: #333; /* Set preferred form background color */
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 margin-bottom: 50px;
 }

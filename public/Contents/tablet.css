@@ -6,40 +6,38 @@
     flex-direction: column;
     min-height: 100vh;
   }
-  
+
   .img-fluid {
     margin-top: 5%;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-bottom: 5%;
-    width: 80%;
-    height: auto;
-    max-width: 100%;
+    width: 90%; /* Adjust the width for tablets */
+    height: auto; /* Adjust the height proportionally */
     border: 5px solid black;
+    max-width: 100%;
+    border: 2%; /* Adjust the border width */
     border-radius: 50%;
     overflow: hidden;
   }
-  
+
   .container {
     background-color: grey;
-    padding: 5%;
+    padding: 3%;
   }
-  
+
   .col h1 {
     font-family: "filicudi-color-pride", sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin: 0;
   }
-  
-  .col h3,
-  .col h1,
-  .col .typed-text {
+
+  .col h3, .col h1, .col .typed-text {
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 5%; /* Adjust the margin for tablets */
     text-align: left;
     color: white;
   }
-  
+
   .col h3 {
     margin-top: 5%;
   }
@@ -78,84 +76,76 @@
     list-style-type: none;
   }
   
-  form {
+  form{
     text-align: center;
-  }
-  
-  label {
+    }
+    
+    label{
     color: white;
-  }
-  
-  .ContactSys {
-    max-width: 80%;
+    }
+        
+    .ContactSys {
+    max-width: 400px; 
     margin: 0 auto;
-    padding: 5%;
+    padding: 25px;
     border-radius: 5px;
     text-align: center;
-    border: 2px solid black;
-    background-color: #333;
+    border: 2px solid black; /* Add a black border to the ContactSys container */
+    background-color: #333; /* Set preferred form background color */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 10%;
-  }
-  
-  .SubmitButton {
-    background-color: rgb(27, 15, 37);
+    margin-bottom: 50px;
+    }
+        
+        
+    .SubmitButton{
+    background-color: rgb(27,15,37);
     color: white;
     display: inline-block;
     box-sizing: border-box;
     border-color: black;
-    text-align: center;
-    padding: 3% 6%;
-    margin-top: 5%;
-    margin-bottom: 10%;
-    border-radius: 5px;
-  }
-  
-  .ContactSys .Inside {
+    align-items: center;
+    }
+        
+        
+    .ContactSys .Inside{
     width: 100%;
-    margin: 2%;
-    padding: 3% 6%;
-    border-width: 5%;
-  }
-  
-  .ContactSys h1 {
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-width: 10px;
+    }
+        
+        
+    .ContactSys h1{
     text-align: center;
     color: white;
-    margin-bottom: 5%;
-    padding: 2%;
-  }
-  
-  .ContactSys .Outside {
+    margin-bottom: 30px;
+    padding: 10px; /* Padding inside the border */
+    }
+        
+        
+    .ContactSys .Outside{
     width: 100%;
-    height: 15%;
-    margin: 2%;
-    padding: 10% 6%;
+    height: 150px;
+    margin: 8px 0;
+    padding: 100px 20px;
     display: inline-block;
-    border-width: 5%;
-  }
-  
-  .ContactSys .Outside::placeholder {
+    border-width: 10px;
+    }
+        
+        
+    .ContactSys .Outside::placeholder{
     text-align: left;
-    vertical-align: top;
-    padding-top: 0;
-  }
-  
-  .ContactSys .SubmitButton:hover {
-    transform: scale(1.2);
-  }
-  
-  .ContactSys h2:hover {
-    text-decoration: none;
-    opacity: 1;
-  }
-  
-  .ContactSys .SubmitButton {
-    height: 5%;
-    width: 10%;
+    vertical-align: top; /* Align the placeholder text at the top */
+    padding-top: 0; /* Remove any top padding for the placeholder text */
+    }
+                 
+    .ContactSys .SubmitButton{
+    height: 30px;
+    width: 70px;
     cursor: pointer;
-    margin-top: 5%;
-    margin-bottom: 10%;
-  }
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
   
   .about-header {
     position: relative;
