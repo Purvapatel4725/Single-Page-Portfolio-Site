@@ -1,0 +1,33 @@
+<script src="/Scripts/app.js"></script>
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/jquery/dist/jquery.min.js"></script>
+<!--Ontario tech university animated text-->
+<script>
+  function OTUtyped() {
+    const className = document.querySelector('.typed-text');
+    const inputTxt = "Ontario Tech University";
+    let i = 0;
+    function NewTxt() {
+      if (i <= inputTxt.length) {
+        className.textContent = inputTxt.slice(0, i);
+        i++;
+      } else {
+        Timeout(() => {
+          i = 0;
+          className.textContent = "";
+          NewTxt();
+        }, 5000);
+        return;
+      }
+
+      Timeout(NewTxt, 100); 
+    }
+
+    NewTxt();
+  }
+  // Start typing when the page loads
+  window.addEventListener('load', OTUtyped);
+</script>
+
+</body>
+</html>
