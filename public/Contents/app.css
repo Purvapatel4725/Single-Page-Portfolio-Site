@@ -279,3 +279,7 @@ align-items: baseline;
 .col .typed-text{
     font-family: 'Orbitron';
 }
+
+.navbar-brand{
+    font-family: 'Blac Ops One';
+}

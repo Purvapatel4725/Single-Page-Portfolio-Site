@@ -128,19 +128,9 @@
         padding-top: 0;
       }
       
-      .ContactSys .SubmitButton:hover {
-        transform: scale(1.2);
-      }
-      
-      .ContactSys h2:hover {
-        text-decoration: none;
-        opacity: 1;
-      }
-      
       .ContactSys .SubmitButton {
         height: 5%;
         width: 15%;
-        cursor: pointer;
         margin-top: 10%;
         margin-bottom: 10%;
       }
@@ -233,7 +223,7 @@
       }
       
       .navbar-brand, .nav-link{
-        color: white !important;
+        color: grey !important;
         align-items: baseline;
         }
           .box1 li, .box2 li, .box3 li{
@@ -254,6 +244,8 @@
           .col .typed-text{
             font-family: 'Orbitron';
         }
-
+        .navbar-brand{
+          font-family: 'Blac Ops One';
+      }
 
 }
