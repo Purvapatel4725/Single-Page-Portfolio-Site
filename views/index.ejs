@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <title><%= title %></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
@@ -10,8 +10,8 @@
     <link href="/Contents/tablet.css" rel="stylesheet" type="text/css" media="only screen and (min-width:481px) and (max-width:959px)">
     <!-- phone style sheet-->
     <link href="/Contents/mobile.css" rel="stylesheet" type="text/css" media="only screen and (max-width:480px)">
-    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css' />
-    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css' />
+    <link rel='stylesheet' href='/bootstrap/dist/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='/@fortawesome/fontawesome-free/css/all.min.css'>
     <!--Font by google Kenia-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
@@ -26,7 +26,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <!--font by adobe-->
     <link rel="stylesheet" href="https://use.typekit.net/zhq4lgb.css">
-  <body>
+</head>
+<body>
 <!--Main nav bar-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
@@ -63,12 +64,13 @@
 </section>
     
 <section id="projects">
-    <div class="container">
+  <div class="container">
     <h1 class="prj-title">Projects</h1>
     <div class="flex-container">
         <div class="box1">
         <h1>Python</h1>
         <article> 
+        <ul>
         <li>In my first-year coding project, I developed a </li>
         <li>Python-based encryption and decryption tool that </li>
         <li>offers a diverse range of ciphers.</li>
@@ -79,18 +81,21 @@
         <li>encryption methods, providing a valuable learning experience</li> 
         <li>and practical utility</li>
         <li>for data privacy and security.</li>
+        </ul>
         <br>
         </article>
         </div>
         <div class = "box2">
         <h1>Networking</h1>
         <article>
+        <ul>
         <li>In my second-year networking project, I created an internet-connected</li> 
         <li>network, using various routing protocols to interconnect with peers' pods.</li> 
         <li>Security measures such as firewalls, encryption, and access controls were </li>
         <li>implemented to ensure data safety. This project exemplified my networking skills</li> 
         <li>and</li>
         <li>commitment to a secure communication environment.</li>
+        </ul>
         <br>
         </article>
         </div>
@@ -99,24 +104,29 @@
         <div class="box3">
         <h1>Web Development</h1>
         <article>
+        <ul>
         <li>In my second-year web development project, I created a comprehensive portfolio</li> 
         <li>website using HTML, CSS, JavaScript, and other web technologies. This project served</li> 
         <li>as an impressive showcase of my design and coding abilities, enabling me to present my</li> 
         <li>work, skills, and achievements in an engaging and interactive manner, fostering personal and</li> 
         <li>professional growth in the web development field.</li>
+        </ul>
         <br>
         </article>
         </div>
         <div class="box3">
         <h1>Project Management</h1>
         <article>
+        <ul>
         <li>In my project management class, I effectively led a dedicated team in orchestrating a</li> 
         <li>vibrant Carnival. We meticulously managed the budget, identified key stakeholders, handled </li>
         <li>logistics, and executed marketing strategies. Our collaborative efforts culminated in a comprehensive</li> 
-        <li>final report, underscoring our exemplary teamwork and refined project management skills<li>
+        <li>final report, underscoring our exemplary teamwork and refined project management skills</li>
+        </ul>
         <br>
         </article>
       </div>
+    </div>
     </div>
 </section>
     
@@ -135,7 +145,7 @@
                     <input class="Inside" type="email" placeholder="xyz@abc.com" name="email address" required>
                 </label>
                 <label>Message:
-                    <textarea class="Outside" type="text" placeholder="Enter your message here..." name="Custom message" required></textarea>
+                    <textarea class="Outside" placeholder="Enter your message here..." name="Custom message" required></textarea>
                 </label>
                 <label>
                     <button class="SubmitButton" type="submit">Submit</button>
@@ -155,15 +165,15 @@
                 <img class="about-img" src="Assets/images/Aboutme.jpg" alt="Purva Patel">
             </div>
             <div class="about-details">
-                <p class="about-text">
-                    <h4>I am Purva Patel, a motivated Networking and IT Security student at Ontario Tech Univeristy with a keen interest in the intersection of business and technology. I possess strong Python programming and networking skills, excellent problem-solving abilities and I am a skilled communicator and collaborator. I am eager to make a positive impact in the dynamic fields of Cybersecurity, and business.</h4>
-                </p>
+                    <h4>I am Purva Patel, a motivated Networking and IT Security student at Ontario Tech University with a keen interest in the intersection of business and technology. I possess strong Python programming and networking skills, excellent problem-solving abilities, and I am a skilled communicator and collaborator. I am eager to make a positive impact in the dynamic fields of Cybersecurity and business.</h4>
                 <div class="about-info">
                     <div class="about-info-item"><h4>Name: <span>Purva Patel</span></h4></div>
                     <div class="about-info-item"><h4>Education: <span>Ontario Tech University</span></h4></div>
-                    <div class="about-info-item"><h4>Phone: <span>+1 9055983307</span></h4></div>
+                    <div class="about-info-item"><h4>Phone: <span>+1 9055983307</span></h4>
+                    </div>
                     <div class="about-info-item"><h4>Email: <span>purvapatel4725@gmail.com</span></h4></div>
-                    <div class="about-info-item"><h4>Address: <span>191 Nonquon Road, Oshawa, ON</span></h4></div>
+                    <div class="about-info-item"><h4>Address: <span>191 Nonquon Road, Oshawa, ON</span></h4>
+                    </div>
                 </div>
             </div>
         </div>
@@ -174,8 +184,6 @@
                 Your browser does not support the video tag.
             </video> 
         </div>
-        </div>
-    </div>
     </div>
 </section>
 <!--Bottom Nav bar-->
@@ -185,22 +193,16 @@
   </div>
 </nav>
 
-
-
-
-
 <!--Scripts-->
-  <script scr = "/Scripts/app.js"></script>
-  <script scr = "/bootstrap/dist/js/bootstrap.min.js"></script>
-  <script scr = "/jquery/dist/jquery.min.js"></script>
+  <script src="/Scripts/app.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+<!--Js for animation-->
 <script>
-  // Function to type text and pause in sequence
   function typeTextAndPause() {
     const textElement = document.querySelector('.typed-text');
     const textToType = "Ontario Tech University";
     let index = 0;
-
-    // Function to update the text and handle the pause
     function updateText() {
       if (index <= textToType.length) {
         textElement.textContent = textToType.slice(0, index);
@@ -210,16 +212,15 @@
           index = 0;
           textElement.textContent = "";
           updateText();
-        }, 5000); // Pause for 5 seconds (5000 milliseconds)
+        }, 5000);
         return;
       }
 
-      setTimeout(updateText, 100); // Adjust the interval duration (in milliseconds) for typing speed
+      setTimeout(updateText, 100); 
     }
 
     updateText();
   }
-
   // Start typing when the page loads
   window.addEventListener('load', typeTextAndPause);
 </script>
