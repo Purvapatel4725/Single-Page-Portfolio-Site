@@ -1,6 +1,8 @@
 Fonts used:
 Google. (2019). Google Fonts. Google Fonts. https://fonts.google.com/
 
+Otto, Mark. “Bootstrap.” Getbootstrap.com, 2022, getbootstrap.com/
+
 Poster created using (Poster.png):
 How to create a logo with Canva - Canva. (2019, June 6). About Canva. https://www.canva.com/create/logos/
 
